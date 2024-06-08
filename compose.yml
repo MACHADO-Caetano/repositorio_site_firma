@@ -1,0 +1,14 @@
+version: "3.8"
+services: 
+    apache:
+        image: httpd:alpine
+        container_name: apachedenovo
+        ports:
+            - 80:80
+        volumes:
+            - ./htdocs:/usr/local/apache/htdocs/
+        networks:
+            - default
+networks:
+    default:
+        driver: bridge
