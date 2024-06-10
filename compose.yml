@@ -4,7 +4,7 @@ services:
         image: httpd:alpine
         container_name: apachedenovo
         ports:
-            - 70:80
+            - 80:80
         volumes:
             - ./htdocs:/usr/local/apache/htdocs/
         networks:
