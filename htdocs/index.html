@@ -1,19 +1,215 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Página</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <title>site</title>
 </head>
-<body style="color: aliceblue;">
-<header style="background-color: black;">
-    <h1>Título</h1>
-</header>
-<nav>
-    <ul>
-        <li><a href="#">Menu</a></li>
-        <li><a href="#">Loja</a></li>
-        <li><a href="#">Contatos</a></li>
-    </ul>
+
+<body style="background-color: #303030;">
+
+  <header class="header_edition">
+    <img class="image_header" src="" alt="Logo Firma"> <!--Aqui, adicionar o logo da empresa-->
+    <nav>
+      <ul style="list-style-type: none;">
+        <li><a id="button" href="vendedores.html">Contatos Vendedores</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="caixa1">
+      <div class="div_titulo_section">
+        <h2>titulo teste primeira caixa</h2> <!--Adicionar foto/imagem de fundo-->
+      </div>
+      <div class="div_titulo_section ajuste">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima modi ullam eligendi quisquam atque, odit ex
+          id quidem fuga reiciendis et corrupti dolorum libero? Est id debitis deserunt iure officiis!
+          Unde, nulla. Officiis, autem voluptates debitis enim magnam aut? Incidunt dolores tenetur, sit sequi hic
+          debitis ad, quidem non, pariatur quae quaerat quasi exercitationem officia placeat aliquam! Adipisci, ad
+          nobis?</p>
+      </div>
+    </section>
+
+    <section class="caixa2">
+      <div class="d-flex ajuste2">
+        <h2>titulo teste 2</h2>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-1 accordion" id="accordionExample">
+        <div class="accordion-item cards_hist ajuste2">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed"
+              style="color: white; height: 50px; background-color: red; border: solid black;padding: 2px; margin: 1px; display: flex; align-items: center; justify-content: center;"
+              type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+              aria-controls="collapseOne">
+              card 1
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p style="color: white;"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam eveniet
+                voluptas officia enim corporis quos facere voluptate culpa beatae veritatis. Quidem, culpa nemo
+                praesentium odit quam laborum. Expedita, corporis maiores.
+                Quam doloribus id earum vel cumque, e.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item cards_hist2 ajuste2">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed"
+              style="color: white; height: 50px; background-color: red; border: solid black;padding: 2px; margin: 1px; display: flex; align-items: center; justify-content: center;"
+              type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+              aria-controls="collapseTwo">
+              card 2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum quasi id
+                deleniti, maxime esse consequuntur dolorem ipsa dicta laborum obcaecati repudiandae, aut numquam atque
+                nesciunt molestias perferendis reprehenderit tenetur!</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item cards_hist3 ajuste2">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed"
+              style="color: white; height: 50px; background-color: red; border: solid black;padding: 2px; margin: 1px; display: flex; align-items: center; justify-content: center;"
+              type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+              aria-controls="collapseT">
+              card 3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum quasi id
+                deleniti, maxime esse consequuntur dolorem ipsa dicta laborum obcaecati repudiandae, aut numquam atque
+                nesciunt molestias perferendis reprehenderit tenetur!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="caixa4">
+        <div>
+          <h3 id="prod_list">marca 1</h3>
+          <ul>
+            <li><span><img src="" alt="logo1" style="width: 100px; height: 100px;"></span></li>
+            <li><span><img src="" alt="logo1"
+                  style="width: 200px; height: 100px;"></span></li>
+            <li><span><img src="" alt="logo1"
+                  style="width: 200px; height: 100px;"></span></li>
+          </ul>
+        </div>
+        <div>
+          <h3 id="prod_list">marca 2</h3>
+          <ul>
+            <li><span><img src="" alt="logo1" style="width: 100px; height: 100px;"></span></li>
+            <li><span><img src="" alt="logo1"
+                  style="width: 200px; height: 100px;"></span></li>
+            <li><span><img src="" alt="logo1"
+                  style="width: 200px; height: 100px;"></span></li>
+          </ul>
+        </div>
+        <div>
+          <h3 id="prod_list">marca 3</h3>
+          <ul>
+            <li><span><img src="" alt="logo1" style="width: 100px; height: 100px;"></span></li>
+            <li><span><img src="" alt="logo1"
+                  style="width: 200px; height: 100px;"></span></li>
+            <li><span><img src="" alt="logo1"
+                  style="width: 200px; height: 100px;"></span></li>
+          </ul>
+        </div>
+        <div>
+          <h3 id="prod_list">marca 4</h3>
+          <ul>
+            <li><span><img src="" alt="logo1" style="width: 100px; height: 100px;"></span></li>
+            <li><span><img src="" alt="logo1"
+                  style="width: 200px; height: 100px;"></span></li>
+            <li><span><img src="" alt="logo1"
+                  style="width: 200px; height: 100px;"></span></li>
+          </ul>
+        </div>
+        
+      </div>
+           
+    </section>
+    <section class="formulario2">
+      <div class="formulario_caixas3">
+        <div>
+          <h5>Informações da Empresa!</h5>
+        </div>
+        <br>
+        <div>
+          <p>CNPJ</p>
+          <p>Endereço por escrito</p>
+          <p>telefone geral</p>
+          <p>algum e-mail para contato</p>
+          <p>horário de funcionamento</p>
+          <p>adicionar instagram e/ou redes sociais para link</p>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="caixa3">
+            <div class="caixa3_titulo">
+                <h3>Se ainda está com dúvidas... consulte as avaliações de alguns dos nossos clientes</h3>
+            </div>
+            <div>
+                <p>cliente 1</p>
+            </div>
+            <div>
+                <p>cliente 2</p>
+            </div>
+            <div>
+                <p>cliente 3</p>
+            </div>
+        </section> -->
+  </main>
+
+  <footer class="footer_edition">
+    <h4>Copyright &copy; 2024 - Todos os direitos reservados - Multipeças</h4>
+    <p>Development by Caetano</p>
+  </footer>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          }
+        });
+      }, {
+        threshold: 0.5 // Ajuste este valor conforme necessário
+      });
+
+      const sections = document.querySelectorAll("section");
+      sections.forEach(section => {
+        observer.observe(section);
+      });
+    });
+
+    //     document.querySelectorAll('.accordion-button').forEach(button => {
+    //   button.addEventListener('click', () => {
+    //     const accordionContent = button.nextElementSibling;
+    //     if (accordionContent.style.flexBasis === '0px' || accordionContent.style.flexBasis === '') {
+    //       accordionContent.style.flexBasis = '250px'; // Exemplo de largura expandida
+    //     } else {
+    //       accordionContent.style.flexBasis = '0';
+    //     }
+    //   });
+    // }); função para tentar fazer o botão do accordion abrir pela lateral, estudar mais para adaptar
+  </script>
 </body>
+
 </html>
